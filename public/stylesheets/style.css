@@ -1,0 +1,77 @@
+body {
+  padding: 0px !important;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.jumbo-bg {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  background: #f9f9f99a;
+}
+
+.logo > svg {
+  padding: 10px 30px 10px
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.txt > div > h1 {
+  color: #f9f9f9;
+  font-size: 32px;
+}
+
+form {
+  display: grid;
+  padding-top: 50px;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding-left: 5px;
+  background: rgba(206, 205, 203, 0.768);
+  color: #f9f9f99a;
+}
+
+input[type="text"]::placeholder {
+  color: #f9f9f99a;
+}
+
+button[type="submit"] {
+  height: 30px;
+  width: 50%;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgb(6, 228, 99);
+  color: #f9f9f99a;
+}
+
+button[type="submit"]:hover {
+  background: rgba(6, 228, 98, 0.693);
+  color: #f9f9f9f3;
+}
